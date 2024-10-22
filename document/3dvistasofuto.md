@@ -165,11 +165,17 @@ Set the line color to yellow, thickness to 3.0, and opacity to 0.01.
 
 
 
-## スキンの編集
+## Skin　スキンの編集
 
+Skinに切り替えると、下記のような画像となる。Main Viewerは写真を見るためのwindow，左上のパネルは自分で定義したもの、パネルを設置し、パネルの機能を指定すれば、特定な色んなことができる。
 
+When switching to Skin, the image will look like this. The Main Viewer is a window for viewing photos, and the panel in the upper left is user-defined. By placing panels and specifying their functions, various specific tasks can be performed.
 
 <figure><img src="../.gitbook/assets/グラフィックス1.png" alt=""><figcaption></figcaption></figure>
+
+パネルの設定完了後は下記のようなレーダーが現れる。詳しく設定方法は次へ。
+
+After setting up the panel, a radar like the one below will appear. For detailed setup instructions, proceed to the next step.
 
 <figure><img src="../.gitbook/assets/グラフィックス2.png" alt=""><figcaption></figcaption></figure>
 
