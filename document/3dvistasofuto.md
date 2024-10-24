@@ -11,8 +11,6 @@ description: 3DVista Virtual Tourの使い方, Edit by Chun
 橋梁例
 {% endhint %}
 
-
-
 ![](../.gitbook/assets/0.png)
 
 <mark style="color:red;">**New Project**</mark>を実行　Execute
@@ -83,9 +81,9 @@ After specifying the angle of view by dragging in the center view, click "Set Vi
 
 Next, select the hotspot tab below the panorama, and similarly drag and drop another image of the bridge's upper surface to the moving position (you may also refer to the explanatory video that might appear when you click the hotspot).
 
-![屋外, 建物, 乗る, ランプ が含まれている画像
+!\[屋外, 建物, 乗る, ランプ が含まれている画像
 
-自動的に生成された説明](../.gitbook/assets/11.png)
+自動的に生成された説明]\(../.gitbook/assets/11.png)
 
 そうすると，こんなポップアップが出てくるので，Create Return Hotspotにチェックが入っていることを確認後，右の3×3の升目みたいなものをクリックする．
 
@@ -141,17 +139,15 @@ When the following window appears, the default view is <mark style="color:red;">
 
 Check the navigation when clicking in the preview to confirm.
 
-
-
 ## 損傷箇所の標記
 
 損傷をホットスポットとして含める．右上の![](../.gitbook/assets/18.png)マークをクリック
 
 Include damage as a hotspot. Click the mark ![](../.gitbook/assets/18.png) in the upper right
 
-![パソコンの画面
+!\[パソコンの画面
 
-中程度の精度で自動的に生成された説明](../.gitbook/assets/19.png)
+中程度の精度で自動的に生成された説明]\(../.gitbook/assets/19.png)
 
 損傷を囲う
 
@@ -162,8 +158,6 @@ Surround the damage
 線の色を黄色，厚さ3.0, 不透明度0.01にする．
 
 Set the line color to yellow, thickness to 3.0, and opacity to 0.01.
-
-
 
 ## Skin　スキンの編集
 
@@ -178,8 +172,6 @@ When switching to Skin, the image will look like this. The Main Viewer is a wind
 After setting up the panel, a radar like the one below will appear. For detailed setup instructions, proceed to the next step.
 
 <figure><img src="../.gitbook/assets/グラフィックス2.png" alt=""><figcaption></figcaption></figure>
-
-
 
 ## FloorPlanの追加
 
@@ -298,9 +290,10 @@ The underside of the bridge is the same. Then save the file.
 File → Create Project Backup with Media, create a folder and specify.
 
 ## About the data
+
 ### 間引きの必要性
 
-すべてのデータをプロットすると大変なので，かなり間引いてよい．目安は，10mくらいで1車線の橋梁であれば，車道3~4枚，橋の周り4枚，橋の下3枚，両端の支承が見える写真がそれぞれ2～3枚．合計15~20枚程度．2車線だったら15~25枚程度．要するに，橋の状況がわかることが一番大事（ここは知性を要求するところ）
+すべてのデータをプロットすると大変なので，かなり間引いてよい．目安は，10mくらいで1車線の橋梁であれば，車道34枚，橋の周り4枚，橋の下3枚，両端の支承が見える写真がそれぞれ2～3枚．合計1520枚程度．2車線だったら15\~25枚程度．要するに，橋の状況がわかることが一番大事（ここは知性を要求するところ）
 
 例えばきずな橋を例に取る．
 
@@ -316,11 +309,9 @@ File → Create Project Backup with Media, create a folder and specify.
 
 ![alt text](../.gitbook/assets/kizuna-romen-image.png)
 
-
 例えば78号橋を例に取る．
 
-少し特殊な橋梁で，556-562が片側の橋，565-571がもう片側の橋．
-この場合，例えば556, 559, 562, 566, 568, 570,と取れば桁下はカバーできそう．そして周りとして554, 563を取る．
+少し特殊な橋梁で，556-562が片側の橋，565-571がもう片側の橋． この場合，例えば556, 559, 562, 566, 568, 570,と取れば桁下はカバーできそう．そして周りとして554, 563を取る．
 
 ![alt text](../.gitbook/assets/78bridge-1-image.png)
 
