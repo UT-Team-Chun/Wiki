@@ -21,11 +21,19 @@ layout:
 
 # 3DVista使用説明\_ソフト編
 
-## はじめに
+{% embed url="https://www.3dvista.com/en/" %}
+3DVista HomePage
+{% endembed %}
 
 {% hint style="info" %}
-橋梁例
+下記は橋梁例
 {% endhint %}
+
+## :house: はじめに
+
+
+
+HomePageから3DVistaをDownloadする
 
 ![](../../.gitbook/assets/0.png)
 
