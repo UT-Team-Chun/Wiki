@@ -33,6 +33,8 @@ layout:
 
 
 
+### New Project
+
 HomePageから3DVistaをDownloadする
 
 ![](../../.gitbook/assets/0.png)
@@ -41,11 +43,19 @@ HomePageから3DVistaをDownloadする
 
 ![](../../.gitbook/assets/1.png)
 
+### **Skinの導入**
+
 <mark style="color:red;">**Import Skin**</mark>で，別ファイルとして渡した「skin\_3dvista\_1.vts」を読み込み，<mark style="color:red;">**Select**</mark>
 
 Use <mark style="color:red;">**Import Skin**</mark> to load the file "skin\_3dvista\_1.vts" provided as a separate file, and then
 
+{% file src="../../.gitbook/assets/skin_3dvista_1.vts" %}
+DLして導入
+{% endfile %}
+
 ![](../../.gitbook/assets/2.png)
+
+### **Panoramaの追加**
 
 <mark style="color:red;">**Import Panorama**</mark>を選択
 
@@ -65,17 +75,17 @@ Select <mark style="color:red;">Import Panorama</mark>
 
 If this warning appears, check <mark style="color:red;">**Apply to All Panoramas**</mark> and click <mark style="color:red;">**Yes**</mark>**.** Then, click on the Project tab to display the uploaded photos
 
+
+
+### Project名の設定
+
 ![](../../.gitbook/assets/6.png)
 
 ここで，Project Name：というところに，橋の名前をいれる（今回は仮にSample Bridgeと入れます）
 
 Here, in the Project Name: section, enter the name of the bridge (for this example, we'll set "sample bridge")
 
-### 言語の変更
-
-必要に応じて日本語化する．Edit→Language→日本語
-
-![](../../.gitbook/assets/7.png)
+### ビュー初期点の設定
 
 パノラマタグに戻り，起点となり得る画像を開く．橋梁上面が望ましい．
 
@@ -83,17 +93,27 @@ Return to the panorama tag and open an image that can serve as the starting poin
 
 ![](../../.gitbook/assets/8.png)
 
-右の枠にあるAdvanced Optionsというのを開く．
+### 写真パラメータの設定（Advanced Options）
 
-Open the Advanced Options located in the right
+下記の画像に示すように、写真を全部 importし、`[Panormas]`　→　\[`List`]　のところに全ての写真を選択し、右の枠にある`Advanced Options` というのを開く．
 
+{% tabs %}
+{% tab title="設定画面" %}
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="選択の詳細" %}
 ![](../../.gitbook/assets/9.bmp)
+
+
+{% endtab %}
+{% endtabs %}
 
 ここで，Zoom Settingsの最小を150, 初期状態も150にする．ローテーション速度のオートマチックを０にする．下のほうにあるオートプレイの設定のループ再生のチェックを外す．
 
 Adjust the Zoom Settings to a minimum of 150 and set the initial state to 150 as well. Set the automatic rotation speed to 0. Uncheck the loop playback setting in the Autoplay options found
 
-これを，全ての画像に対して行う（大変ですが・・・）
+
 
 ![](../../.gitbook/assets/10.png)
 
@@ -105,9 +125,7 @@ After specifying the angle of view by dragging in the center view, click "Set Vi
 
 Next, select the hotspot tab below the panorama, and similarly drag and drop another image of the bridge's upper surface to the moving position (you may also refer to the explanatory video that might appear when you click the hotspot).
 
-!\[屋外, 建物, 乗る, ランプ が含まれている画像
-
-自動的に生成された説明]\(../.gitbook/assets/11.png)
+<figure><img src="../../.gitbook/assets/11.png" alt=""><figcaption></figcaption></figure>
 
 そうすると，こんなポップアップが出てくるので，Create Return Hotspotにチェックが入っていることを確認後，右の3×3の升目みたいなものをクリックする．
 
@@ -185,6 +203,8 @@ Set the line color to yellow, thickness to 3.0, and opacity to 0.01.
 
 ## Skin　スキンの編集
 
+### Skinの機能
+
 Skinに切り替えると、下記のような画像となる。Main Viewerは写真を見るためのwindow，左上のパネルは自分で定義したもの、パネルを設置し、パネルの機能を指定すれば、特定な色んなことができる。
 
 When switching to Skin, the image will look like this. The Main Viewer is a window for viewing photos, and the panel in the upper left is user-defined. By placing panels and specifying their functions, various specific tasks can be performed.
@@ -197,7 +217,7 @@ After setting up the panel, a radar like the one below will appear. For detailed
 
 <figure><img src="../../.gitbook/assets/グラフィックス2.png" alt=""><figcaption></figcaption></figure>
 
-## FloorPlanの追加
+### SkinによるFloorPlan
 
 ToolBarの2番目にFloorPlanのボタンをクリックすると、FloorPlan Viewerのパネルが出てくる．（３Dマップ、レーダーの機能をしている）
 
@@ -207,7 +227,7 @@ FloorPlan Viewer特に設定する必要がなく、右から3番目のFloor Pla
 
 FloorPlan Viewer is automatically linked to Floor Plans, which is the third from the right, without any specific settings needed. By configuring Floor Plans, radar information for each layer will appear. Please refer to the next section for instructions on setting up Floor Plans (radar).
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Dropdownバーの活用
 
@@ -237,9 +257,17 @@ Click on "Back View" and change the "Media" option in the Advanced Options of th
 
 ## レーダーを作る
 
+### FloorPlanの追加
+
+先ず平面図のためのイメージ図を作成しなければ。
+
+{% content-ref url="floor-plannotamenoimji.md" %}
+[floor-plannotamenoimji.md](floor-plannotamenoimji.md)
+{% endcontent-ref %}
+
 <figure><img src="../../.gitbook/assets/グラフィックス4.png" alt=""><figcaption></figcaption></figure>
 
-平面図タブに行き，平面図を追加する．
+平面図タブに行き，平面図を追加する．（別途で作成する必要がある ）
 
 Go to the Floor Plan tab and add a floor plan.
 
