@@ -119,7 +119,7 @@ Adjust the Zoom Settings to a minimum of 150 and set the initial state to 150 as
 
 そして画角を真ん中のビューでドラッグで指定後，右のパノラマ設定から，ビューを書記点として設定，をクリックする．
 
-After specifying the angle of view by dragging in the center view, click "Set View as Keyframe" from the right
+After specifying the angle of view by dragging in the center view, click "Set View as <mark style="color:red;">Initial Point</mark>" from the right
 
 次に，パノラマの下のタブのホットスポットを選択，そして同じく橋梁上面の別画像を，その移動位置にドラッグアンドドロップする（ホットスポットをクリックしたら出てくるかもしれない解説動画も参考）．
 
